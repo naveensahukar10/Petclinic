@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine
+FROM openjdk:8
 EXPOSE 8082
 COPY . .
 WORKDIR /app
